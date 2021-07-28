@@ -1,0 +1,255 @@
+body{
+    padding: 0;
+    margin: 0;
+    /*background: rgb(201, 179, 179); */
+    overflow-x: hidden;
+}
+
+.navbar
+{
+      
+    height: 10vh;
+    width: 100%;
+    background:white;
+     /*border: 2px solid rgb(128, 119, 119);*/ 
+     text-align: end;
+}
+
+.landing
+{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    background: url('../imagesp/fruit1.jpg') no-repeat center ;
+    
+    background-size: 100%;
+
+}
+
+.landing .landing-text
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.425);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.catlog
+{
+    height: 50vh;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+}
+.catlog .col
+{
+    position: relative;
+    height:100%;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+
+.catlog .col:nth-child(1)
+{
+    background: rgb(104, 54, 54);
+    background-image: url(../pics/img/pic1.jpg);
+    background-size :100%;
+     color: rgb(250, 240, 240);
+
+}
+.and{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+
+}
+
+
+.catlog .col:nth-child(2)
+{
+    background: rgb(120, 180, 120);
+    background-image: url(../pics/img/pic1\ \(2\).jpg);
+    background-size :100%;
+    color: rgb(250, 240, 240);
+}
+.catlog .col:nth-child(3)
+{
+    background: rgba(255, 206, 99, 0.493);
+    background-image: url(../pics/img/pic3.jpg);
+    background-size :100%;
+    color: rgb(250, 240, 240);
+}
+
+.catlog .col:nth-child(4)
+{
+    background: rgb(233, 83, 153);
+    background-image: url(../pics/img/pic4.jpg);
+    color: rgb(250, 240, 240);
+}
+
+.big
+{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.big .col
+{
+    position: relative;
+    height:100%;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.big .col:nth-child(1)
+{
+        background-image: url(../pics/img/pic5.jpg);
+        
+     
+}
+    
+.big .col:nth-child(2)
+{
+    background-color: rgb(14, 0, 2);
+    
+}
+
+
+.container
+{
+    height:90vh;
+    width:100%;
+    display:flex;
+    position: relative;
+    overflow:hidden;
+}
+
+.container .col 
+{
+    /* border:2px solid red; */
+    height:100%;
+    width: 100%;
+}
+
+.container .col.col-1
+{
+    background: url(../pics/img/test.jpg);
+    background-size: 100%;
+}
+
+.container .col.col-2
+{
+    /* border:2px solid red; */
+
+    padding: 80px 0 0 40px;
+
+
+}
+
+.container .col.col-2 span
+{
+    font-size: 1.2em;
+    color:rgb(14, 235, 14);
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.container .col.col-2 h2
+{
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    font: size 24px;
+    color:white;
+}
+.container{
+   position: relative;
+
+}
+.centered {
+    position: absolute;
+    top: 65px;
+    right: 730px;
+    color:white;
+   font-size: 25px;
+  }
+ 
+  .cad{
+      position: absolute;
+      right: 1100px;
+      top: 250px;
+      border:none;
+      
+  }
+
+  .cad1{
+
+    position: absolute;
+    right: 970px;
+    top: 250px;
+    border: none;
+  }
+
+  
+.nava{
+   position:absolute;
+    top: 410px;
+    left: 57px;
+    font-style: oblique;
+    color: rgb(16, 83, 16);
+    font-size: 18px;
+} 
+.navas{
+    position:absolute;
+    top: 430px;
+    left: 57px;
+    font-size: 25px;
+    
+
+}
+.dev{
+   
+   position: absolute;
+   top: 220px;
+   left: 290px;
+   width:60% ;
+   height: 35px;
+  }
+  
+
+.devss{
+    position: absolute;
+    top: 220px;
+    right: -90px;
+}
+
+
+
+.again{
+    position: absolute;
+    bottom: -1150px;
+    left: 750px;
+    color:rgb(109, 101, 101);
+}
+.siv{
+    position: absolute;
+    top: 1550px;
+    right: 267px;
+}
+
+.giv{
+    float: right;
+    width: 89.37%;
+    padding: 19px;
+}
+
